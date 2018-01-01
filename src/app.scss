@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+$header-bg:#37474f;
+#app{
+    width: 100vw;
+    height: 100vh;
+    display:grid;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas: 
+        "header"
+        "header"
+        "main"
+        "main"
+        "main"
+        "footer";
+    header{
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: $header-bg;
+        color: lighten($header-bg, 50%);
+        &>* {
+            align-self: center;
+        }
+    }
+    main{
+        grid-area: main;
+         display: flex;
+         justify-content: center;
+        &>* {
+            align-self: center;
+        }
+    }
+    footer{
+        grid-area: footer;
+        display: flex;
+        justify-content: center;
+        background-color: lighten($header-bg, 70%);
+        &>*{
+            align-self: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+}
