@@ -1,7 +1,7 @@
 /*  
  ***********
- ******Christmas******
- ****************
+ ******Season Greeting******
+ ***********
  */
 
 const date =new Date(),
