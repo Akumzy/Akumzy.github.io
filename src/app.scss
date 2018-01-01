@@ -20,7 +20,7 @@ $header-bg:#37474f;
         justify-content: center;
         align-content: center;
         background-color: $header-bg;
-        color: lighten($header-bg, 50%);
+        color: lighten($header-bg, 40%);
         &>* {
             align-self: center;
         }
