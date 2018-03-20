@@ -44,11 +44,6 @@ body {
       align-self: center;
 }
 
-#app main blockquote {
-  border-left: 3px solid skyblue;
-  padding-left: 2em;
-}
-
 #app footer {
   grid-area: footer;
   display: -webkit-box;
