@@ -44,6 +44,11 @@ body {
       align-self: center;
 }
 
+#app main blockquote {
+  border-left: 3px solid skyblue;
+  padding-left: 2em;
+}
+
 #app footer {
   grid-area: footer;
   display: -webkit-box;
@@ -59,5 +64,10 @@ body {
   -ms-flex-item-align: center;
       align-self: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#app footer a {
+  color: inherit;
+  text-decoration: none;
 }
 /*# sourceMappingURL=app.css.map */
